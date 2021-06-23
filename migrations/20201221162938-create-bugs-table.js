@@ -29,7 +29,7 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       problem: {
-
+        allowNull: false,
         type: Sequelize.STRING,
       },
       error_text: {
